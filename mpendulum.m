@@ -4,14 +4,14 @@ clc
 %% Define constants
 
 nPend=10; % Number of pendulums
-nOscillations = 40% Number of oscilations to synchronize again
+nOscillations = 40% Number of oscillations to synchronize again
 
 lengths = ComputeLengths(nPend,nOscillations)
 
 theta_0 = 0.3;
 dtheta_0 = 0;
 
-t_final=nOscillations+0.24;
+t_final=nOscillations+0.24; % time adjusted due to non-linearities
 delta_t=0.04;
 
 %% Integrate
