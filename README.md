@@ -8,3 +8,6 @@ Pendulums length have been adjusted to synchronize again when the shortest pendu
 Here you can see the result:
 
 ![](PendulumWaves.gif)
+
+
+Python simulation is on progress
