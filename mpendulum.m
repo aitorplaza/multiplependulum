@@ -3,7 +3,7 @@ clc
 
 %% Define constants
 
-nPend=10; % Number of pendulums
+nPend=12; % Number of pendulums
 nOscillations = 40% Number of oscillations to synchronize again
 
 lengths = ComputeLengths(nPend,nOscillations)
